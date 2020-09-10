@@ -66,9 +66,16 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
       transform-origin: center left;
       cursor: pointer;
       user-select: none;
-      cursor: hand;
- outline: none;
       -webkit-tap-highlight-color: transparent;
+ input {
+       background-color:transparent;
+       border: 0px solid;
+       height:30px;
+       width:260px;
+}
+input:focus {
+       outline:none;
+}
 }
 
 /* Add Extra Margin to Last Carousel Tile */
