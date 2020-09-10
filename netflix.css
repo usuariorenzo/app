@@ -79,7 +79,7 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
 /* Ensure All Elements Inside Tile are Block */
 .carousel-tile * {
       display: block;
- border-radius:8px
+ border-radius:6px
 }
 
 /* Carousel Row on Hover */
