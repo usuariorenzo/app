@@ -65,6 +65,7 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
       -webkit-transform-origin: center left;
       transform-origin: center left;
       cursor: pointer;
+      cursor: hand;
       user-select: none;
       -webkit-tap-highlight-color: transparent;
 }
