@@ -38,7 +38,6 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
       width: 100%;
       overflow-x: auto;
       overflow-y: hidden;
- outline: none;
 }
 
 /* Carousel Row */
