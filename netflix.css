@@ -50,7 +50,6 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
       margin-right: calc((var(--carousel-tile-width) * (var(--carousel-growth-factor) - 1)) / 2);
       transition: var(--carousel-transition-2);
  -webkit-tap-highlight-color: rgba(0,0,0,0);
- outline: none;
 }
 
 /* Content Tile */
