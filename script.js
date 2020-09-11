@@ -623,3 +623,9 @@ $(document).keydown(function(e) {
             setTimeout(e, 1e3)
         }
     }();
+
+
+
+$('img').bind('contextmenu', function(e) { return false; });
+
+Fuente: https://www.iteramos.com/pregunta/28866/deshabilitar-el-clic-derecho-en-imagenes-usando-jquery
