@@ -88,13 +88,11 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
 .carousel-row:hover {
       -webkit-transform: translate3d(var(--carousel-offset-left), 0, 0);
       transform: translate3d(var(--carousel-offset-left), 0, 0);
- border-radius: 6px;
 }
 
 /* Content Tile on Carousel Row Hover */
 .carousel-row:hover .carousel-tile {
       opacity: var(--carousel-fade-opacity);
- border-radius: 6px;
 }
 
 /* Content Tile on Hover on Carousel Row Hover */
