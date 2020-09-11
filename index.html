@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<HTML class='ltr no-js rwd index' dir='ltr'>
+<html lang="en" >
 <head>
-<!-- [ Meta Tag SEO ] -->
-<include expiration='7d' path='*.css'></include>
-<include expiration='7d' path='*.js'></include>
-<include expiration='3d' path='*.gif'></include>
-<include expiration='3d' path='*.jpeg'></include>
-<include expiration='3d' path='*.jpg'></include>
-<include expiration='3d' path='*.png'></include>
-<meta content='sat, 10 jul 2021 00:00:00 GMT' http-equiv='expires'/>
-<meta charset='utf-8'/>
-<meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'/>
-<head>
-<link href="netflix.css" rel="stylesheet">
-	
-	
+  <meta charset="UTF-8">
+  <title>CodePen - Strip Carousel</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 <center><h1>CANALES LATINOS</h1></center>
 
@@ -359,82 +351,8 @@
 
     </div>
 </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
 
-
-<script>
-//<![CDATA[
-// Lazy Load AdSense
-var lazyadsense=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyadsense||0!=document.body.scrollTop&&!1===lazyadsense)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Indzign/InSEO@master/levelmaxblock.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyadsense=!0)},!0);
-// Lazy Ajax Search
-var lazyajaxsearch=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyajaxsearch||0!=document.body.scrollTop&&!1===lazyajaxsearch)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/ajaxsearchcode.js?live=true&amp;image=true";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyajaxsearch=!0)},!0);
-// Lazy Script Code One
-var lazycodeone=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazycodeone||0!=document.body.scrollTop&&!1===lazycodeone)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/phantom@master/arlinacodezet.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazycodeone=!0)},!0);
-// Night Mode
-$("#modedark").click(function(){$("body").toggleClass("Night")}),$("body").toggleClass(localStorage.toggled),$("#modedark").click(function(){"Night"!=localStorage.toggled?($("body").toggleClass("Night",!0),localStorage.toggled="Night"):($("body").toggleClass("Night",!1),localStorage.toggled="")});
-// click
-$(document).keydown(function(event) {
-    if (event.keyCode == 123) {
-        return false;
-    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-        return false;
-    }
-});
-document.onkeydown = function(e) {
-    if (e.ctrlKey &&
-        (e.keyCode === 67 ||
-            e.keyCode === 83 ||
-            e.keyCode === 85 ||
-            e.keyCode === 86 ||
-            e.keyCode === 117)) {
-        return false;
-    } else {
-        return true;
-    }
-};
-$(document).keypress("u", function(e) {
-    if (e.ctrlKey) {
-        return false;
-    } else {
-        return true;
-    }
-});
-document.onkeypress = function(event) {
-    event = (event || window.event);
-    if (event.keyCode == 123) {
-        //alert('No F-12');
-        return false;
-    }
-}
-document.onmousedown = function(event) {
-    event = (event || window.event);
-    if (event.keyCode == 123) {
-        //alert('No F-keys');
-        return false;
-    }
-}
-document.onkeydown = function(event) {
-    event = (event || window.event);
-    if (event.keyCode == 123) {
-        //alert('No F-keys');
-        return false;
-    }
-}
-$(document).keydown(function(e) {
-        return 123 != e.keyCode && !e.ctrlKey && !e.shiftKey && void 0
-    }), $(document).on("contextmenu", function(e) {
-        e.preventDefault()
-    }),
-    function e() {
-        try {
-            ! function e(t) {
-                1 === ("" + t / t).length && t % 20 != 0 || function() {}.constructor("debugger")(), e(++t)
-            }(0)
-        } catch (t) {
-            setTimeout(e, 1e3)
-        }
-    }();
-
-//]]>
-</script>
 </body>
-</HTML>
+</html>
