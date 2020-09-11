@@ -69,6 +69,7 @@ body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
       transform-origin: center left;
       cursor: pointer;
       cursor: hand;
+ border-radius:6px;
 }
 
 /* Add Extra Margin to Last Carousel Tile */
