@@ -345,4 +345,80 @@
 </div>
 
 
-<script src="keys.js"></script>
+<script>
+//<![CDATA[
+// Lazy Load AdSense
+var lazyadsense=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyadsense||0!=document.body.scrollTop&&!1===lazyadsense)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Indzign/InSEO@master/levelmaxblock.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyadsense=!0)},!0);
+// Lazy Ajax Search
+var lazyajaxsearch=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyajaxsearch||0!=document.body.scrollTop&&!1===lazyajaxsearch)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/ajaxsearchcode.js?live=true&amp;image=true";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyajaxsearch=!0)},!0);
+// Lazy Script Code One
+var lazycodeone=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazycodeone||0!=document.body.scrollTop&&!1===lazycodeone)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/phantom@master/arlinacodezet.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazycodeone=!0)},!0);
+// Night Mode
+$("#modedark").click(function(){$("body").toggleClass("Night")}),$("body").toggleClass(localStorage.toggled),$("#modedark").click(function(){"Night"!=localStorage.toggled?($("body").toggleClass("Night",!0),localStorage.toggled="Night"):($("body").toggleClass("Night",!1),localStorage.toggled="")});
+// click
+$(document).keydown(function(event) {
+    if (event.keyCode == 123) {
+        return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+        return false;
+    }
+});
+document.onkeydown = function(e) {
+    if (e.ctrlKey &&
+        (e.keyCode === 67 ||
+            e.keyCode === 83 ||
+            e.keyCode === 85 ||
+            e.keyCode === 86 ||
+            e.keyCode === 117)) {
+        return false;
+    } else {
+        return true;
+    }
+};
+$(document).keypress("u", function(e) {
+    if (e.ctrlKey) {
+        return false;
+    } else {
+        return true;
+    }
+});
+document.onkeypress = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        //alert('No F-12');
+        return false;
+    }
+}
+document.onmousedown = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        //alert('No F-keys');
+        return false;
+    }
+}
+document.onkeydown = function(event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {
+        //alert('No F-keys');
+        return false;
+    }
+}
+$(document).keydown(function(e) {
+        return 123 != e.keyCode && !e.ctrlKey && !e.shiftKey && void 0
+    }), $(document).on("contextmenu", function(e) {
+        e.preventDefault()
+    }),
+    function e() {
+        try {
+            ! function e(t) {
+                1 === ("" + t / t).length && t % 20 != 0 || function() {}.constructor("debugger")(), e(++t)
+            }(0)
+        } catch (t) {
+            setTimeout(e, 1e3)
+        }
+    }();
+
+//]]>
+</script>
+</body>
+</HTML>
