@@ -133,3 +133,17 @@ div.container4 p {
   -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
   box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
    }
+
+.wrapper span a {
+    width: 90%;
+    height: 25px;
+    display: block;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 25px;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
