@@ -1,3 +1,4 @@
+
 /* body */
 body{font-family:'Quicksand';color:white;background:#13141e}::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.0);border-radius:10px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.00)}:focus{outline:none}
 
@@ -62,6 +63,7 @@ body{font-family:'Quicksand';color:white;background:#13141e}::-webkit-scrollbar{
       transform-origin: center left;
       cursor: pointer;
       cursor: hand;
+      border-radius: 6px;
 }
 
 /* Add Extra Margin to Last Carousel Tile */
