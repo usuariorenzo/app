@@ -105,7 +105,9 @@ div.container4 p {
     margin-right: -50%;
     transform: translate(-50%, -50%)
    }	
-	
+/* Adblock */
+#levelmaxblock{background:rgba(34,47,62,0.67);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}#levelmaxblock .header{margin:10px 0 20px 0;position:relative;top:initial;left:initial}#levelmaxblock .header h2{color:#222;font-size:1.8rem}#levelmaxblock .inner{background:#fff;border-radius:12px;color:#222;box-shadow:0 0 2rem -1rem rgba(0,0,0,0.5);text-align:center;width:100%;max-width:640px;padding:30px;margin:7% auto 2% auto;animation:flipInX 1s}#levelmaxblock button{position:relative;overflow:hidden;padding:6px 20px;background:#f5aa33;color:#fff;margin:20px 5px;cursor:pointer;border-radius:99em;font-size:13px;font-weight:500;border:2px solid #f5aa33;transition:initial;box-shadow:0 1px 0 rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.1)}#levelmaxblock button:hover{background:#fff;color:#f5aa33;outline:none;border-color:#f5aa33}#levelmaxblock button.active,#levelmaxblock button:hover.active{background:#ee5253;color:#fff;border-color:#ee5253;outline:none}#levelmaxblock .caranya{background:#f7f9f8;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px;border-radius:8px;border:1px solid rgba(0,0,0,0.05)}#levelmaxblock .caranya div{display:none}#levelmaxblock .caranya div.active{display:block;animation:fadeInUp .5s}#levelmaxblock ol{margin-left:20px}#levelmaxblock button:after,#levelmaxblock button:before{content:'';display:block;position:absolute;bottom:0;right:0;left:0;height:50%;background:rgba(0,0,0,0.05);background-repeat:no-repeat;transition:all .3s}#levelmaxblock button:before{height:0;top:0;bottom:initial}#levelmaxblock button:hover:after{height:0}#levelmaxblock button:hover:before{height:50%}
+@media(max-width:768px){#levelmaxblock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}	
 	
 </style>
 	
@@ -465,6 +467,8 @@ $('a[href*=\\#]').on('click', function(event){
 $(document).ready(function(){
      smoothScrollingTo(location.hash);
 });
+// Lazy Load AdSense
+var lazyadsense=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyadsense||0!=document.body.scrollTop&&!1===lazyadsense)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.jsdelivr.net/gh/Indzign/InSEO@master/levelmaxblock.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyadsense=!0)},!0);
 //]]>
 </script>
 </HTML>
