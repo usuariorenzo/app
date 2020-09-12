@@ -115,18 +115,3 @@ div.container4 p {
     margin-right: -50%;
     transform: translate(-50%, -50%)
    }
-
-/* Section Title */
-.wrapper span a {  
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  line-height: 25px;  
-  color: white;
-  text-decoration: none;
-}
-
-/* Section Title Hover */
-.wrapper span a:hover {
-  text-decoration: none;
-}
