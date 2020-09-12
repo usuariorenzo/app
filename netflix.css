@@ -118,3 +118,12 @@ div.container4 p {
     transform: translate(-50%, -50%)
 
    }
+<div id="player"></div>
+						
+						<script>
+						player = new Clappr.Player({
+						watermark: 'https://static.claro.com.pe/img/logos/disney-xd.jpg',
+						plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin],
+						mediacontrol: {seekbar:"#000", buttons: "#3086C2"},   
+
+						</script>
