@@ -1,19 +1,4 @@
-/* Html, Body */
-html, body {
-  font-family: 'Cabin', sans-serif;
-  color: white;
-  background: #181926;
-
-}
-
-
-
-::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.0);border-radius:10px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.00)}
-
-:focus {
-    outline: none;
-  }
-
+body{font-family:'Cabin',sans-serif;color:white;background:#181926}::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.0);border-radius:10px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.00)}:focus{outline:none}
 
 /* Global Variables */
 :root {
@@ -88,8 +73,6 @@ html, body {
 .carousel-tile * {
       display: block;
  border-radius: 6px;
-  -webkit-tap-highlight-color:transparent;
-
 }
 
 
@@ -109,18 +92,13 @@ html, body {
       -webkit-transform: scale(var(--carousel-growth-factor));
       transform: scale(var(--carousel-growth-factor));
       opacity: var(--carousel-normal-opacity);
-        -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+
 }
 
 /* Content Tile on Hover */
 .carousel-tile:hover ~ .carousel-tile {
       -webkit-transform: translate3d(var(--carousel-offset-right), 0, 0);
       transform: translate3d(var(--carousel-offset-right), 0, 0);
-        -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
 }
 
 div.container4 {
@@ -137,9 +115,6 @@ div.container4 p {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-      -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
-  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
    }
 
 /* Section Title */
@@ -147,17 +122,12 @@ div.container4 p {
   font-size: 19px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  line-height: 25px;
-  
-  padding: 0;
-  
+  line-height: 25px;  
   color: white;
   text-decoration: none;
-  cursor: default;
 }
 
 /* Section Title Hover */
 .wrapper span a:hover {
   text-decoration: none;
-  cursor: default;
 }
