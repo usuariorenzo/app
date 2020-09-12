@@ -61,7 +61,6 @@ body{font-family:'Cabin',sans-serif;color:white;background:#181926}::-webkit-scr
       cursor: pointer;
       cursor: hand;
  border-radius:6px;
-  -webkit-tap-highlight-color:transparent;
 }
 
 /* Add Extra Margin to Last Carousel Tile */
