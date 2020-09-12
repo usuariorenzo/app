@@ -26,6 +26,8 @@ html, body {
     outline: none;
   }
 
+a{-webkit-tap-highlight-color:transparent}
+
 /* Global Variables */
 :root {
 
