@@ -1,5 +1,5 @@
-body{background:#13141e;color:rgba(0,0,0,.6);font-family:"Quicksand"
- }
+/* body */
+body{font-family:'Quicksand';color:white;background:#13141e}::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.0);border-radius:10px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.00)}:focus{outline:none}
 .noselect { -webkit-touch-callout: none; /* iOS Safari */ -webkit-user-select: none; /* Safari */ -khtml-user-select: none; /* Konqueror HTML */ -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* Internet Explorer/Edge */ user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */ }
 
 
