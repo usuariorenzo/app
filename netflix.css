@@ -89,6 +89,7 @@ a{-webkit-tap-highlight-color:transparent}
       cursor: pointer;
       cursor: hand;
  border-radius:6px;
+  -webkit-tap-highlight-color:transparent;
 }
 
 /* Add Extra Margin to Last Carousel Tile */
@@ -100,6 +101,7 @@ a{-webkit-tap-highlight-color:transparent}
 .carousel-tile * {
       display: block;
  border-radius: 6px;
+  -webkit-tap-highlight-color:transparent;
 
 }
 
